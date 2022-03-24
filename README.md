@@ -51,5 +51,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://github.com/rbressanelli)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/rbressanelli)
+- Website - [Roberto](https://github.com/rbressanelli)
+- Frontend Mentor - [rbressanelli](https://www.frontendmentor.io/profile/rbressanelli)
