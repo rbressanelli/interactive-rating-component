@@ -1,0 +1,168 @@
+html,
+body {
+  height: 100vh;
+  font-family: "Overpass";
+}
+
+body.application {
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+main {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: hsl(217, 12%, 63%);
+}
+
+h1.title {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+section.box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+div.container {
+  max-width: 330px;
+  height: 360px;
+  border-radius: 20px;
+  padding: 17px;
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div#thanks-container {
+  align-items: center;
+}
+
+figure#star-container {
+  width: 45px;
+  height: 45px;
+  background-color: hsl(213, 19%, 22%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure#thanks-container {
+  text-align: center;
+}
+
+figure#thanks-container img {
+  margin: 10px 0;
+}
+
+figure#star-container img {
+  width: 15px;
+  height: 15px;
+}
+
+button#submit-button {
+  background-color: hsl(25, 97%, 53%);
+  border: transparent;
+  border-radius: 50px;
+  width: 100%;
+  height: 45px;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-family: "Overpass";
+  text-transform: uppercase;
+}
+
+div#rating {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.rating-value {
+  width: 45px;
+  height: 45px;
+  background-color: hsl(213, 19%, 22%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(217, 12%, 63%);
+}
+
+div.selected {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+section.hidden {
+  display: none;
+}
+
+div.rate-container {
+  text-align: center;
+  width: 60%;
+  height: 30px;
+  padding: 5px 0;
+  border-radius: 50px;
+  background-color: hsl(213, 19%, 22%);
+}
+
+div.rate-container > p {
+  color: hsl(25, 97%, 53%);
+}
+
+p.thanks-text {
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 768px) {
+  button#submit-button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  div.rating-value {
+    cursor: pointer;
+  }
+
+  div.rating-value:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  div.rating-value:active {
+    background-color: hsl(0, 0%, 100%);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  div.container {
+    max-width: 400px;
+    padding: 20px 40px;
+  }
+}
