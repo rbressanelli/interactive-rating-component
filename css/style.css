@@ -61,11 +61,11 @@ figure#star-container {
   align-items: center;
 }
 
-figure#thanks-container {
+figure#thanks-container-image {
   text-align: center;
 }
 
-figure#thanks-container img {
+figure#thanks-container-image img {
   margin: 10px 0;
 }
 
